@@ -1,0 +1,45 @@
+footer{
+  padding: 80px 80px 100px;
+    color: #363B3F;
+}
+
+.footerBoxes{
+  margin-bottom:100px;
+  width: 20%;
+  //background-color: #666;
+  display: inline-block;
+  float: left;
+    ul {
+      cursor: pointer;
+      opacity: 0.8;
+      text-decoration: none;
+      padding: 0;
+      display: block;
+      margin-bottom: 10px;
+       font-weight: bold;
+       line-height: 25px;
+    }
+
+    li {
+      padding: 8px 20px 8px 0;
+      display: block;
+      font-weight: 400; 
+      line-height: auto;
+
+
+    }
+
+    h1{
+      margin: 0 0 20px 0;
+    }
+    h1,p{
+      opacity: 0.8;
+    }
+
+}
+
+@media (max-width: 940px) {
+footer{
+  display:none;
+}
+}

@@ -1,0 +1,47 @@
+section {
+  width: 100%;
+}
+
+.hero {
+  background-image: linear-gradient(180deg, #071E2E, #062031);
+  padding: 20px;
+}
+
+.heroMessage {
+  width: 40%;
+  height: 500px;
+  max-width: 1200px;
+ // background-color: #222;
+  margin: 40px auto;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Roboto 200', sans-serif;
+  position: relative;
+}
+
+.heroTitle {
+  font-size: 55px;
+  margin: 200px 0 20px
+}
+
+.heroMessageWrap {
+  position: absolute;
+  bottom: 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #199ADE;
+  color: white;
+  font-family: 'Roboto 200', sans-serif;
+  border-radius: 5px;
+  margin: 40px 40px 80px;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 589px) {
+.heroMessage{
+    width:auto;
+  }
+}
