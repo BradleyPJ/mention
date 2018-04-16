@@ -2,7 +2,7 @@
 
 ## Preview
 
-https://bradleypj.github.io/mention/.
+https://bradleypj.github.io/mention/Build.
 
 ## Todo
 
