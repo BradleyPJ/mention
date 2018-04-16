@@ -2,14 +2,13 @@ header {
   padding: 20px;
 }
 
-.logo{
+.logo {
   float: left;
-    font-family: 'Roboto 900',
-    sans-serif;
-    color: white;
-    padding: 10px;
-    font-size: 26px;
-    letter-spacing: 1px;
+  font-family: 'Roboto 900', sans-serif;
+  color: white;
+  padding: 10px;
+  font-size: 26px;
+  letter-spacing: 1px;
 }
 
 .navwrap {
@@ -17,8 +16,7 @@ header {
   display: initial;
   color: white;
   text-transform: uppercase;
-  font-family: 'Roboto 900',
-  sans-serif;
+  font-family: 'Roboto 900', sans-serif;
   ul {
     cursor: pointer;
     text-decoration: none;
@@ -30,8 +28,9 @@ header {
     display: inline-block;
   }
 }
+
 @media (max-width: 730px) {
-header{
-  display :none;
-}
+  header {
+    display: none;
+  }
 }
